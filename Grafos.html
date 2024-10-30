@@ -22,7 +22,10 @@
     <main>
         <aside>
             <a href="#isomorf"><button>isomorfismo de grafos</button></a>
-            <a href="#Arboles"><button>Arboles</button></a>
+            <a href="#Arboles"><button>Árboles</button></a>
+            <a href="#Arbolescomo"><button>Árboles como modelos</button></a>
+            <a href="#ArbolBB"><button>Árbol Binario de Busqueda</button></a>
+            <a href="#notacionP"><button>Notacion Polaca</button></a>
         </aside>
         <div id="isomorf">
             <h2>Isomorfismo de grafos</h2>
@@ -54,23 +57,23 @@
             <p>En teoría de grafos y estructuras de datos, un árbol es un tipo de estructura jerárquica donde los elementos (o nodos) están conectados de una forma que no genera ciclos, lo que significa que cada camino va en una única dirección y no se regresa al punto de partida. Un árbol tiene un nodo especial llamado raíz, que actúa como el punto de inicio, y desde allí se extienden ramas que conectan otros nodos en niveles más bajos.</p>
             Los árboles se utilizan ampliamente para representar relaciones jerárquicas, como en una organización donde el director general está en la raíz y bajo él están los directores de departamento, luego los gerentes, y así sucesivamente. Cada "nivel" o profundidad en el árbol representa una capa jerárquica diferente.
         </P>
-        <P>
+        <P id="Arbolescomo">
             <h2>Árboles como Modelos</h2>
             <p>Los árboles como modelos son representaciones ideales cuando necesitamos organizar datos o conceptos de forma jerárquica. Estos modelos facilitan el análisis de sistemas complejos dividiendo los datos en niveles y subniveles. Un árbol como modelo permite representar desde la estructura de un sistema de archivos en una computadora, donde cada carpeta contiene subcarpetas o archivos, hasta la toma de decisiones en un problema, donde cada nodo representa una decisión y las ramas representan posibles elecciones.</p>
 
             <p>Por ejemplo, en un árbol de decisiones, cada nivel del árbol representa una opción o situación, y las ramas muestran cómo cada decisión lleva a diferentes resultados, permitiendo visualizar las alternativas y posibles caminos para llegar a una conclusión.</p>
-        </P>
-
+        </P>            
+        <p id="ArbolBB">
             <h2>Árbol Binario de Búsqueda (Árbol BB)</h2>
-        <p>
             <p>Un árbol binario de búsqueda, o Árbol BB, es un tipo especial de árbol donde cada nodo tiene como máximo dos nodos secundarios, comúnmente llamados hijos. Lo que hace especial a este árbol es que tiene un orden específico: los valores de los nodos a la izquierda son menores al nodo en el centro, y los valores a la derecha son mayores. Esta estructura permite realizar búsquedas de datos muy rápidamente porque podemos decidir hacia dónde movernos en función del valor que buscamos.</p>
             <p>supungamos que se busca el número 10 en un árbol de búsqueda. Empiezas en el nodo raíz: si el valor de este nodo es mayor que 10, vas hacia el subárbol izquierdo (donde están los valores menores); si es menor, te mueves al subárbol derecho. Siguiendo esta lógica, reduces el tiempo de búsqueda significativamente.</p>
         </p>
-        <p>
+        <p id="notacionP">
             <h2>Notación Polaca</h2>
             <p>La notación polaca, también llamada notación prefija, es una forma de escribir operaciones matemáticas en la que se coloca el operador (como + o -) antes de los números o valores que se van a operar. A diferencia de la notación convencional (llamada notación infija), en la que el operador va entre los números, la notación polaca organiza las expresiones de una manera que hace innecesario el uso de paréntesis para indicar el orden de operaciones.</p>
             <p>Por ejemplo, en vez de escribir una suma como “3 + 4”, en notación polaca la expresión se escribe como “+ 3 4”. Esto es útil porque el orden de evaluación es claro y no necesita aclaraciones adicionales. La notación polaca se utiliza mucho en computación, ya que permite procesar cálculos en el orden correcto sin tener que resolver primero los paréntesis.</p>
         </p>
+       <div id="space"></div>
     </main>
     <footer>
         <p>  Richard Hernandez  </p>

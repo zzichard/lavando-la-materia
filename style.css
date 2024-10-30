@@ -34,7 +34,7 @@ nav a {
 }
 main {
     padding: 20px;
-    margin-top: 150px;
+    margin-top: 135px;
 }
 
 footer {
@@ -49,6 +49,14 @@ footer {
 }
 
 aside{
+    top: 110px;
+    position: fixed;
     color: white;
     background-color: gray;
+}
+#isomorf, #Arboles,#Arbolescomo,#ArbolBB,#notacionP{
+    scroll-margin-top:135px;
+}
+#space{
+    padding: 150px;
 }
