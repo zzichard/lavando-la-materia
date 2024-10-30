@@ -13,7 +13,7 @@ header {
     right:0;
     background: #1ac00b;
     color: #ffffff;
-    padding: 10px 0;
+    padding: 15px 0;
     text-align: center;
 }
 
@@ -48,14 +48,20 @@ footer {
     font-size: x-small;
 }
 aside{
-    top: 110px;
+    top: 115px;
     position: fixed;
     color: white;
-    background-color: gray;
 }
 #isomorf, #Arboles,#Arbolescomo,#ArbolBB,#notacionP{
-    scroll-margin-top:135px;
+    scroll-margin-top:145px;
+}
+button{
+    padding:5px;
+    background-color:rgb(216, 250, 24);
+    border: none;
+    border-radius:10px;
 }
 #space{
+   
     padding: 150px;
 }
