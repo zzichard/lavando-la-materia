@@ -11,7 +11,10 @@ header {
     top: 0;
     left: 0;
     right: 0;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3454e0ebaf9ab121d97b3d76bbf1e7743b34ff46
     background: #1ac00b;
     color: #ffffff;
     padding: 10px 0;
@@ -33,10 +36,9 @@ nav a {
     color: #ffffff;
     text-decoration: none;
 }
-
 main {
     padding: 20px;
-    margin-top: 110px;
+    margin-top: 150px;
 }
 
 footer {
